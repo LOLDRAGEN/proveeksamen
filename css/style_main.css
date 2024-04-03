@@ -1,0 +1,73 @@
+header {
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body {
+    font-family: Leelawadee;
+}
+
+#user {
+    font-size: 35px;
+}
+
+
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+#user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+.img {
+    width: 640px;
+    height: 360px;
+    padding: 0 50px 0 50px;
+}
+
+.star_img {
+    height: 12px;
+    width: 12px;
+}
+
+
+button {
+    background-color: #f0f0f0;
+    padding: 15px 20px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+.faq {
+
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+
+}
