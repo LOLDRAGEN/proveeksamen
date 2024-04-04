@@ -70,7 +70,13 @@ if (!$conn) {
 
 ?>
 
+<a href="ticket.php">
+    <button class="button">Suport</button>
+</a>
 
+<a href="support.php">
+    <button class="button">Se Tickets</button>
+</a
 
 </body>
 </html>

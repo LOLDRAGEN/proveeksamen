@@ -21,7 +21,7 @@ require_once 'includes/sesh_chek.inc.php';
 
 <form action="includes/tickets.php" method="post">
     <input id="inputflet" type="text" name="tickets" placeholder="Skriv inn problemet" >
-    <button type="submit">Sedn inn</button>
+    <button type="submit">Send inn</button>
 </form>
 </body>
 </html>
