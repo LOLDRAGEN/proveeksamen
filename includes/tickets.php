@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 
-        $query = "INSERT INTO proveeskame.tickets (issue, con_user_id, issue_answer, resolved) VALUES (:tickets, :con_user_id, null, 0)";
+        $query = "INSERT INTO tickets (issue, con_user_id, issue_answer, resolved) VALUES (:tickets, :con_user_id, 'ikke besvart', 0)";
 
 
         $stmt = $pdo->prepare($query);
