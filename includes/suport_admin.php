@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 
-        $query = "UPDATE proveeskame.tickets SET resolved=1, issue_answer=:issue_answer WHERE ticket_id=:ticket_id";
+        $query = "UPDATE tickets SET resolved=1, issue_answer=:issue_answer WHERE ticket_id=:ticket_id";
 
 
 
