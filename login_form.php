@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../aarsoppgave/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="css/style.css">
     <title>PHP Login</title>
 </head>
 <body>
 <?php
 session_start();
-$dbc = mysqli_connect('localhost', 'root', 'Admin', 'terminoppgave_vg2') or die('Error connecting to MySQL server.');
+$dbc = mysqli_connect('localhost', 'root', 'Admin', 'proveeksamen') or die('Error connecting to MySQL server.');
 ?>
 
 <p>Please log in:</p>

@@ -50,3 +50,6 @@ echo ("hei $navn");
 - $TOF = True/False
 - $liste["en, 3, 3.3,"fire", "!!"]
 echo("$liste[4]")
+
+# github
+- git push origin main
