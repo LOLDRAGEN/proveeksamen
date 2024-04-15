@@ -18,7 +18,7 @@ require_once 'includes/admin_chek.inc.php';
 <head>
     <link rel="stylesheet" href="css/style_main.css">
     <meta charset="UTF-8">
-    <title>The Movie Database</title>
+    <title>Admin</title>
 </head>
 <body>
 
@@ -36,8 +36,8 @@ require_once 'includes/sesh_chek.inc.php';
     </a>
 
 
-    <a href="upload.php">
-        <button class="header_button">Upload a movie</button>
+    <a href="support.php">
+        <button class="header_button">Suport</button>
     </a>
     <a href="delete.php">
         <button class="header_button">Delete account</button>

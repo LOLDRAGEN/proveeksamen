@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="css/style_main.css">
     <meta charset="UTF-8">
-    <title>The Movie Database</title>
+    <title>Admin</title>
 </head>
 <body>
 <?php session_start(); ?>
@@ -26,6 +26,11 @@ require_once 'includes/sesh_chek.inc.php';
         <button class="header_button">Admin</button>
     </a>
 
+    <a href="ticket.php">
+        <button class="header_button">Send inn didt spørsmål</button>
+    </a>
+
+
     <a href="delete.php">
         <button class="header_button">Delete account</button>
     </a>
@@ -42,7 +47,7 @@ require_once 'includes/sesh_chek.inc.php';
 $servername = "localhost";
 $username = "root";
 $password = "Admin";
-$dbname = "terminoppgave_vg2";
+$dbname = "proveeksamen";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
